@@ -29,29 +29,4 @@ An interactive data analysis dashboard built with Python and Streamlit.
 pip install -r requirements.txt
 streamlit run covid_dashboard.py
 
-## 👩‍💻 Author
-Shreya Shukla
-```
 
-Click **"Commit new file"**
-
----
-
-### Optional but nice to have
-
-| What | Why |
-|---|---|
-| README.md | Makes repo look professional  |
-| `.devcontainer` | Already there (auto-added by GitHub)  |
-| Screenshot of dashboard | Add as `screenshot.png` in repo |
-
----
-
-### Your repo is already complete for a project submission:
-```
- covid_dashboard.py     — main code
- requirements.txt       — dependencies
- country_wise_latest.csv
- covid_19_clean_complete.csv
- day_wise.csv
- README.md             — add this now
