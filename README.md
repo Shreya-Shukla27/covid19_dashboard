@@ -5,7 +5,7 @@
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?logo=tensorflow)
 ![Scikit-Learn](https://img.shields.io/badge/ScikitLearn-1.x-green?logo=scikit-learn)
 ![Colab](https://img.shields.io/badge/Google%20Colab-Ready-yellow?logo=google-colab)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
 
 > This repository contains two parts:
 > 1. 📊 An interactive Streamlit dashboard for COVID-19 analysis
