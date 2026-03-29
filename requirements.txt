@@ -1,3 +1,22 @@
-streamlit
-plotly
-pandas
+# COVID-19 Data Science Project — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core Data
+pandas>=1.5.0
+numpy>=1.23.0
+
+# Visualisation
+matplotlib>=3.6.0
+seaborn>=0.12.0
+plotly>=5.11.0
+
+# Machine Learning
+scikit-learn>=1.1.0
+scipy>=1.9.0
+
+# Deep Learning
+tensorflow>=2.10.0
+
+# Notebook
+jupyter>=1.0.0
+ipykernel>=6.0.0
