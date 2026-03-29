@@ -103,15 +103,16 @@ data collection, cleaning, EDA, visualization, machine learning, and deep learni
 5. **Runtime → Change runtime type → GPU**
 6. **Runtime → Run All**
 
+
 ## 📁 Repository Structure
-````
-covid19_dashboard/
-│
-├── 📓 COVID19_DataScience_Complete.ipynb
-├── 🐍 covid_dashboard.py
-├── 📄 country_wise_latest.csv
-├── 📄 covid_19_clean_complete.csv
-├── 📄 day_wise.csv
-├── 📄 requirements.txt
-└── 📄 README.md
+
+| File | Description |
+|------|-------------|
+| 📓 COVID19_DataScience_Complete.ipynb | ML/DL Notebook (Labs 1-10) |
+| 🐍 covid_dashboard.py | Streamlit Dashboard |
+| 📄 country_wise_latest.csv | Dashboard Dataset |
+| 📄 covid_19_clean_complete.csv | Dashboard Dataset |
+| 📄 day_wise.csv | Dashboard Dataset |
+| 📄 requirements.txt | Dependencies |
+| 📄 README.md | This file |
 
