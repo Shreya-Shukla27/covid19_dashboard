@@ -1,11 +1,8 @@
 # COVID-19 Data Science Project — Python Dependencies
 # Install with: pip install -r requirements.txt
 
-streamlit==1.30.0
-pandas==1.5.3
-numpy==1.23.5
-matplotlib==3.6.3
-seaborn==0.12.2
-plotly==5.11.0
-scikit-learn==1.2.2
-scipy==1.9.3
+streamlit
+pandas
+numpy
+matplotlib
+scikit-learn
