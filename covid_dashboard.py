@@ -10,6 +10,7 @@ st.set_page_config(page_title="COVID-19 Dashboard", page_icon="🦠", layout="wi
 st.markdown("<h1 style='text-align:center; color:#ff4444;'>🦠 COVID-19 Dashboard</h1>", unsafe_allow_html=True)
 
 @st.cache_data
+@st.cache_data
 def load_data():
     c = pd.read_csv("country_wise_latest.csv")
     d = pd.read_csv("covid_19_clean_complete.csv")
@@ -17,8 +18,13 @@ def load_data():
     c["CFR"] = (c["Deaths"] / c["Confirmed"] * 100).round(2)
     d["Date"] = pd.to_datetime(d["Date"])
     w["Date"] = pd.to_datetime(w["Date"])
-    c.fillna(0, inplace=True)
-    d.fillna(0, inplace=True)
+
+    # Fix for pandas 2.x — only fill numeric columns with 0
+    num_cols_c = c.select_dtypes(include="number").columns
+    num_cols_d = d.select_dtypes(include="number").columns
+    c[num_cols_c] = c[num_cols_c].fillna(0)
+    d[num_cols_d] = d[num_cols_d].fillna(0)
+
     return c, d, w
 
 country_latest, covid_complete, day_wise = load_data()
