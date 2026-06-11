@@ -1,4 +1,4 @@
-# 🦠 COVID-19 Data Analysis — Complete Project
+# 🦠 COVID-19 Data Analysis- Complete Project
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red?logo=streamlit)
@@ -12,7 +12,7 @@
 > 2. 🤖 An end-to-end ML/DL data science notebook covering Labs 1–10
 
 
-## 📊 Part 1 — Interactive Dashboard (Streamlit)
+## 📊 Part 1- Interactive Dashboard (Streamlit)
 
 An interactive data analysis dashboard built with Python and Streamlit.
 
@@ -20,7 +20,7 @@ An interactive data analysis dashboard built with Python and Streamlit.
 👉 [Click here to view the dashboard](https://covid19dashboard-n2imdzfaqzfxu6dwfdcd4x.streamlit.app/)
 
 ### Features
-- KPI summary — total cases, deaths, recovered, CFR
+- KPI summary- total cases, deaths, recovered, CFR
 - Global trend over time
 - Top 10 most affected countries
 - Interactive world map
@@ -30,7 +30,7 @@ An interactive data analysis dashboard built with Python and Streamlit.
 - India deep dive analysis
 
 ### Dataset
-- Source: Kaggle — Corona Virus Report
+- Source: Kaggle- Corona Virus Report
 - Files: `country_wise_latest.csv`, `covid_19_clean_complete.csv`, `day_wise.csv`
 
 ### 🛠️ Tech Stack
@@ -44,7 +44,7 @@ An interactive data analysis dashboard built with Python and Streamlit.
 pip install -r requirements.txt
 streamlit run covid_dashboard.py
 
-## 🤖 Part 2 — End-to-End Data Science Notebook (Labs 1–10)
+## 🤖 Part 2- End-to-End Data Science Notebook (Labs 1–10)
 
 A complete data science pipeline built on COVID-19 data covering
 data collection, cleaning, EDA, visualization, machine learning, and deep learning.
@@ -54,7 +54,7 @@ data collection, cleaning, EDA, visualization, machine learning, and deep learni
 | Field        | Details                      |
 |--------------|------------------------------|
 | Subject Code | DSE3231                      |
-| Dataset      | Our World in Data — COVID-19 |
+| Dataset      | Our World in Data- COVID-19 |
 | Platform     | Google Colab                 |
 | Language     | Python 3.10                  |
 
